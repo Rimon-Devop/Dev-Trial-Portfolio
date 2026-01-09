@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    text-align: justify;
     box-sizing: border-box;
 
 
@@ -38,6 +37,36 @@
     color: #FD6E0A;
 
 }
+.about-me{
+
+    max-width: 827px;
+    text-align: center;
+
+}
+
+.about-me h2{
+
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+
+.about-me p{
+
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
 
 
 
@@ -88,7 +117,7 @@ nav a{
 
 }
 #banner .banner-content{
-    max-height: 600px;
+    max-width: 585px;
     /* max-width: 356px; */
 }
 
@@ -131,5 +160,46 @@ nav a{
 
     vertical-align: middle;
 
+
+}
+
+#about{
+    padding-top: 130px;
+
+
+}
+
+#about .about-container{
+
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 131px 156px;
+    text-align: center;
+    background-color: #FFF8F3;
+
+
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-container .about-info p{
+
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+
+}
+
+.about-container .about-info h4{
+
+    font-size: 20px;
+    /* color: #757575; */
+    font-weight: 700;
+    line-height: 30px;
 
 }

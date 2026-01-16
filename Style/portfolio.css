@@ -29,10 +29,14 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
 
 
 }
+#btn{
+    margin: 50px auto;
+    display: block;
+
+}    
 .color-orange{
     color: #FD6E0A;
 
@@ -172,8 +176,8 @@ nav a{
 
 #about .about-container{
 
-    width: 71%;
-    max-width: 1140px;
+    /* width: 71%;
+    max-width: 1140px; */
     margin: 0 auto;
     padding: 131px 156px;
     text-align: center;
@@ -193,6 +197,7 @@ nav a{
     font-size: 20px;
     color: #757575;
     line-height: 30px;
+    display: inline;
 
 }
 
@@ -259,3 +264,53 @@ nav a{
     font-size: 16px;
 
 }
+
+#resume, .footer-container{
+    padding-top: 130px;
+}
+
+.resume-container{
+
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0; 
+    display: flex;
+    gap: 24px;
+
+}
+.section-title{
+    padding: 30px;
+
+}
+.resume-card{
+
+    box-shadow: 0 6px 50px #0000002c;
+    margin: 30px 0 30px 0;
+    padding: 30px;
+    
+}
+.footer-container{
+
+
+    width: 71%;
+    max-width: 1140px;
+    /* background-color: #181818; */
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.form-container input, .form-container textarea{
+
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+
+}
+
+
